@@ -4,12 +4,6 @@ body { /*Set background color and size*/
   font-family: "JetBrains Mono", monospace; /*External font family*/
 }
 
-.container {
-  justify-content: center;
-  display: block;
-  align-items: center; 
-}
-
 .div1 { /*align contents in div 1*/
    text-align: center;
 }
@@ -50,7 +44,8 @@ body { /*Set background color and size*/
   display: none;
   width: 542px;
   height: 650px; 
-  text-align: center; 
+  text-align: center;
+  justify-content: center; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -68,7 +63,8 @@ body { /*Set background color and size*/
   background-color: #F0FFF0; 
   border-radius: 10px;
   font-size: 17px;
-  text-align: center; 
+  text-align: center;
+  justify-content: center; 
   color: #000000;
   display: none;
   width: 530px;
@@ -90,6 +86,7 @@ body { /*Set background color and size*/
   background-color: #D8BFD8; 
   border-radius: 10px;
   text-align: center; 
+  justify-content: center;
   display: none;
   width: 530px;
   height: 575px; 
