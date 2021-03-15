@@ -4,6 +4,12 @@ body { /*Set background color and size*/
   font-family: "JetBrains Mono", monospace; /*External font family*/
 }
 
+.container {
+  justify-content: center;
+  display: block;
+  align-items: center; 
+}
+
 .div1 { /*align contents in div 1*/
    text-align: center;
 }
@@ -29,6 +35,7 @@ body { /*Set background color and size*/
   background-color: #BC8F8F;
   border-color: white;
   color: white;
+  cursor: pointer;
   font-size: 15px;
   padding: 10px 15px;  
   border-radius: 5px;
