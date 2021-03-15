@@ -17,4 +17,5 @@
 <h2>Dependency:</h2>
 <ul>
   <li>Font from <a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li>Images from <a href="https://www.pexels.com/">Pexels</a></li>
 </ul>
