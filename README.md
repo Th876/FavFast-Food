@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Images/social-preview.gif" width="600px" height="328px">
+</p>
 <h1>Favorite Fast-Food Informational Site</h1>
 <hr />
 <h2>Overview</h2>
