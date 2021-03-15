@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Favorite Fast Food Information</title>
+  	<link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+  	<meta name="description" content="web page that displays users' choice">
+  	<meta name="author" content="T_Higgins">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> <!--Link external font-->
+  	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> <!--Link external font-->
+  	<link rel="stylesheet" type="text/css" href="style.css"> <!--Attach external css file-->
+</head>
+
+<body>
+	<!--Group header, paragraph and button text in center-->
+	<div class="div1">
+		<h1>Favorite Fast Food</h1> 
+		<p class="instruction">Click the button below to learn about your favorite fast food</p>
+	<br />
+	<button onclick="userSel()">Fast Food</button>
+</div>
+<!--Create some space in between the button and the fastfood classes to make webpage appear neater-->
+<br />
+<br />
+<!--Create one section to contain all information about fastfood2-->
+<div class="fastfood1" id="fastfood1">
+	<h1>You Chose Pizza</h1>
+	<img src="Images/pizza.png" alt="Picture of a slice of pizza">
+	<p>Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.</p>
+</div>
+<!--Create one section to contain all information about fastfood2-->
+<div class="fastfood2" id="fastfood2">
+	<h1>You Chose Hamburger</h1>
+	<img src="Images/hamburger.png" alt="Picture of a hamburger">
+	<p>A hamburger is an American/German sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled. </p>
+</div>
+<!--Create one section to contain all information about fastfood3-->
+<div class="fastfood3" id="fastfood3">
+	<h1>You Chose Hot Dog</h1>
+	<img src="Images/hotdog.png" alt="Picture of a hotdog">
+	<p>A hot dog is an American food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun. It can also refer to the sausage itself. The sausage used is a wiener or a frankfurter.</p>
+</div>
+<!--Create some space in between the button and the fastfood classes to make webpage appear neater-->
+<br />
+<br />
+<!--Create error message class and id-->
+<h2 class="error" id="error"> </h2>
+<!--Attach external js file-->
+<script src="script.js"></script>
+</body>
+</html>

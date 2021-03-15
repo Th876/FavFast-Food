@@ -1,0 +1,115 @@
+body { /*Set background color and size*/
+  background-color: #FFE4E1;
+  background-size: auto auto;
+}
+
+.div1 { /*align contents in div 1*/
+   text-align: center;
+}
+
+.div1 h1 { /*Style the main header of the page*/
+  font-family: 'Squada One', cursive; /*External font family*/
+  font-size: 75px;
+  color: snow;
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 4px 6px #4B0082;
+}
+
+.instruction { /*Style the instructions on the page*/
+  font-family: 'JetBrains Mono', monospace;/*External font family*/
+  font-size: 18px;
+  color: #191919;
+  text-align: center;
+  text-shadow: 3px 1px #E6E6FA;
+  font-weight: bold;
+}
+
+.div1 button { /*Style button of the page*/
+  font-family: 'JetBrains Mono', monospace;/*External font family*/
+  background-color: #BC8F8F;
+  border-color: white;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;  
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.fastfood1 { /*Set background color for image and style as desired*/
+  background-color: white; 
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace;/*External font family*/
+  font-size: 17px;
+  color: #000000;
+  display: none;
+  width: 542px;
+  height: 650px; 
+  text-align: center; 
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 465px;
+}
+
+.fastfood1 h1 { /*Style the header of fastfood1*/
+  font-family: 'JetBrains Mono', monospace; /*External font family*/
+  font-size: 35px;
+  color: #FF6347;
+  text-align: center; 
+  font-weight: bold;
+}
+
+.fastfood2 { /*Set background color for image and style as desired*/
+  background-color: #F0FFF0; 
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace; /*External font family*/
+  font-size: 17px;
+  text-align: center; 
+  color: #000000;
+  display: none;
+  width: 530px;
+  height: 650px; 
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 465px;
+}
+
+.fastfood2 h1{ /*Style the header of fastfood2*/
+  font-family: 'JetBrains Mono', monospace; /*External font family*/
+  font-size: 35px;
+  color: #228B22;
+  text-align: center; 
+  font-weight: bold;
+}
+
+.fastfood3 { /*Set background color for image and style as desired*/
+  background-color: #D8BFD8; 
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace; /*External font family*/
+  font-size: 17px;
+  text-align: center; 
+  display: none;
+  width: 530px;
+  height: 560px; 
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 465px;
+}
+
+.fastfood3  h1{ /*Style the header of fastfood3*/
+  font-family: 'JetBrains Mono', monospace; /*External font family*/
+  font-size: 35px;
+  color: #FFFF00;
+  text-align: center; 
+  font-weight: bold;
+}
+
+.error { /*Style error message as desired*/
+  font-family: 'JetBrains Mono', monospace;/*External font family*/
+  font-size: 16px; 
+  text-align: center;
+  color: red; 
+}
