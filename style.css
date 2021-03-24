@@ -51,12 +51,17 @@ body { /*Set background color and size*/
   font-size: 17px;
   color: #000000;
   display: none;
-  max-width: 542px;
-  max-height: 680px; 
+  width: 542px;
+  height: 680px; 
   text-align: center; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 265 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .pizza h1 { /*Style the header of pizza*/
@@ -78,6 +83,11 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 265 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hamburger h1{ /*Style the header of hamburger*/
@@ -97,6 +107,11 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 265 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hot-dog  h1{ /*Style the header of hot dog*/
