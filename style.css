@@ -12,6 +12,7 @@ body { /*Set background color and size*/
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
+  width: 320px;
   margin: 0 auto;
   text-align: center;
 }
@@ -51,8 +52,8 @@ body { /*Set background color and size*/
   font-size: 17px;
   color: #000000;
   display: none;
-  width: 542px;
-  height: 680px; 
+  max-width: 320px;
+  max-height: 240px; 
   text-align: center; 
   padding-top: 5px;
   padding-left: 40px;
@@ -74,16 +75,12 @@ body { /*Set background color and size*/
   text-align: center; 
   color: #000000;
   display: none;
-  width: 530px;
-  height: 540px; 
+  max-width: 320px;
+  max-height: 240px; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 265 auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .hamburger h1{ /*Style the header of hamburger*/
@@ -98,8 +95,8 @@ body { /*Set background color and size*/
   border-radius: 10px;
   text-align: center; 
   display: none;
-  width: 530px;
-  height: 575px; 
+  max-width: 320px;
+  max-height: 240px; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -116,11 +113,11 @@ body { /*Set background color and size*/
 p { /*Align and style paragraph font*/
   text-align: justify;
   padding-top: 10px;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .error { /*Align, style and color error message*/
-  font-size: 17px; 
+  font-size: 14px; 
   text-align: center;
   color: red; 
 }
