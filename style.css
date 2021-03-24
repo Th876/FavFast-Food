@@ -12,9 +12,8 @@ body { /*Set background color and size*/
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
-  width: 320px;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -44,6 +43,7 @@ body { /*Set background color and size*/
   padding: 10px 15px;  
   border-radius: 5px;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .pizza { /*Set background color for image and style as desired*/
@@ -52,8 +52,8 @@ body { /*Set background color and size*/
   font-size: 17px;
   color: #000000;
   display: none;
-  max-width: 320px;
-  max-height: 240px; 
+  max-width: 542px;
+  max-height: 680px; 
   text-align: center; 
   padding-top: 5px;
   padding-left: 40px;
@@ -75,8 +75,8 @@ body { /*Set background color and size*/
   text-align: center; 
   color: #000000;
   display: none;
-  max-width: 320px;
-  max-height: 240px; 
+  width: 530px;
+  height: 540px; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -95,8 +95,8 @@ body { /*Set background color and size*/
   border-radius: 10px;
   text-align: center; 
   display: none;
-  max-width: 320px;
-  max-height: 240px; 
+  width: 530px;
+  height: 575px; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -113,11 +113,11 @@ body { /*Set background color and size*/
 p { /*Align and style paragraph font*/
   text-align: justify;
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .error { /*Align, style and color error message*/
-  font-size: 14px; 
+  font-size: 17px; 
   text-align: center;
   color: red; 
 }
