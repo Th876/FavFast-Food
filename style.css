@@ -58,10 +58,6 @@ body { /*Set background color and size*/
   padding-left: 40px;
   padding-right: 40px;
   margin: 265 auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .pizza h1 { /*Style the header of pizza*/
@@ -102,16 +98,12 @@ body { /*Set background color and size*/
   border-radius: 10px;
   text-align: center; 
   display: none;
-  max-width: 530px;
-  max-height: 575px; 
+  width: 530px;
+  height: 575px; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 265 auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .hot-dog  h1{ /*Style the header of hot dog*/
