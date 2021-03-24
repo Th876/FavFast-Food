@@ -7,16 +7,15 @@ body { /*Set background color and size*/
   box-sizing: border-box;
 }
 
-.container {
+.div1 { /*align contents in div 1*/
   display: block; 
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
+  margin: 0 auto;
+  text-align: center;
 }
 
-.div1 { /*align contents in div 1*/
-   text-align: center;
-}
 
 .div1 h1 { /*Style the main header of the page*/
   font-family: 'Squada One', cursive !important; /*External font family*/
@@ -52,13 +51,12 @@ body { /*Set background color and size*/
   font-size: 17px;
   color: #000000;
   display: none;
-  width: 542px;
-  height: 650px; 
+  max-width: 542px;
+  max-height: 680px; 
   text-align: center; 
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin: 265 auto;
 }
 
 .pizza h1 { /*Style the header of pizza*/
@@ -80,7 +78,6 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin: 265 auto;
 }
 
 .hamburger h1{ /*Style the header of hamburger*/
@@ -100,7 +97,6 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin: 265 auto;
 }
 
 .hot-dog  h1{ /*Style the header of hot dog*/
