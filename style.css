@@ -1,7 +1,10 @@
 body { /*Set background color and size*/
   background-color: #FFE4E1;
-  background-size: auto auto;
   font-family: "JetBrains Mono", monospace; /*External font family*/
+}
+
+*{
+  box-sizing: border-box;
 }
 
 .container {
@@ -55,7 +58,7 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-left: 465px;
+  margin: 265 auto;
 }
 
 .pizza h1 { /*Style the header of pizza*/
@@ -77,7 +80,7 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-left: 465px;
+  margin: 265 auto;
 }
 
 .hamburger h1{ /*Style the header of hamburger*/
@@ -97,7 +100,7 @@ body { /*Set background color and size*/
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-left: 465px;
+  margin: 265 auto;
 }
 
 .hot-dog  h1{ /*Style the header of hot dog*/
