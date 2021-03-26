@@ -1,21 +1,19 @@
 body { /*Set background color and size*/
   background-color: #FFE4E1;
   font-family: "JetBrains Mono", monospace; /*External font family*/
+  overflow-x: hidden;
 }
 
 *{
   box-sizing: border-box;
 }
 
-.div1 { /*align contents in div 1*/
-  display: block; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center;
-  margin: 0 auto;
+.div1 {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  text-align: center; 
 }
-
 
 .div1 h1 { /*Style the main header of the page*/
   font-family: 'Squada One', cursive !important; /*External font family*/
@@ -43,27 +41,29 @@ body { /*Set background color and size*/
   padding: 10px 15px;  
   border-radius: 5px;
   font-weight: bold;
-  margin: 0 auto;
 }
 
 .pizza { /*Set background color for image and style as desired*/
   background-color: white; 
+  border: hidden;
   border-radius: 10px;
   font-size: 17px;
   color: #000000;
   display: none;
-  max-width: 542px;
-  max-height: 680px; 
+  width: 542px;
   text-align: center; 
-  padding-top: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 265 auto;
+  padding: 5px 40px 20px;
+  position: relative; 
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .pizza h1 { /*Style the header of pizza*/
   font-size: 35px;
   color: #FF6347;
+  text-shadow: none;
   text-align: center; 
   font-weight: bold;
 }
@@ -77,15 +77,18 @@ body { /*Set background color and size*/
   display: none;
   width: 530px;
   height: 540px; 
-  padding-top: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 265 auto;
+  padding: 5px 40px 20px;
+  position: relative; 
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .hamburger h1{ /*Style the header of hamburger*/
   font-size: 35px;
   color: #228B22;
+  text-shadow: none;
   text-align: center; 
   font-weight: bold;
 }
@@ -96,16 +99,18 @@ body { /*Set background color and size*/
   text-align: center; 
   display: none;
   width: 530px;
-  height: 575px; 
-  padding-top: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 265 auto;
+  padding: 5px 40px 20px;
+  position: relative; 
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .hot-dog  h1{ /*Style the header of hot dog*/
   font-size: 35px;
   color: #FFFF00;
+  text-shadow: none;
   text-align: center; 
   font-weight: bold;
 }
