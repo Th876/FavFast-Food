@@ -60,7 +60,7 @@ body { /*Set background color and size*/
   margin-bottom: 40px;
 }
 
-.pizza h1 { /*Style the header of pizza*/
+.pizza h2 { /*Style the header of pizza*/
   font-size: 35px;
   color: #FF6347;
   text-shadow: none;
@@ -85,7 +85,7 @@ body { /*Set background color and size*/
   margin-bottom: 40px;
 }
 
-.hamburger h1{ /*Style the header of hamburger*/
+.hamburger h2{ /*Style the header of hamburger*/
   font-size: 35px;
   color: #228B22;
   text-shadow: none;
@@ -107,7 +107,7 @@ body { /*Set background color and size*/
   margin-bottom: 40px;
 }
 
-.hot-dog  h1{ /*Style the header of hot dog*/
+.hot-dog  h2{ /*Style the header of hot dog*/
   font-size: 35px;
   color: #FFFF00;
   text-shadow: none;
