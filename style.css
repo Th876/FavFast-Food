@@ -1,96 +1,135 @@
-body { /*Set background color and size*/
-  background-color: #FFE4E1;
-  font-family: "JetBrains Mono", monospace; /*External font family*/
-  overflow-x: hidden;
-}
+$desktop: 1200px;
+$laptop: 992px;
+$tablet: 768px;
+$mobile: 576px;
 
 *{
   box-sizing: border-box;
+
+  body { /*Set background color and size*/
+    background-color: #FFE4E1;
+    font-family: "JetBrains Mono", monospace; /*External font family*/
+    overflow-x: hidden;
+    height: 100%;
+  }
 }
 
-.div1 {
-  position: absolute;
-  left: 50px;
-  right: 50px;
-  text-align: center; 
+.container {
+  width: 100%;
+  height: 100vh;
 }
 
-.div1 h1 { /*Style the main header of the page*/
-  font-family: 'Squada One', cursive !important; /*External font family*/
-  font-size: 75px;
-  color: snow;
-  letter-spacing: 5px;
-  text-align: center;
-  text-shadow: 4px 6px #4B0082;
+.header { /*Style the main header of the page*/
+  display: block;
+  margin: 30px;
+
+    &__title {
+      font-family: 'Squada One', cursive !important; /*External font family*/
+      font-size: 5rem;
+      color: snow;
+      letter-spacing: 0.3rem;
+      text-align: center;
+      text-shadow: 4px 6px #4B0082;
+    }
+
+    &__instruction { /*Style the instructions on the page*/
+    font-size: 1.125rem;
+    color: #191919;
+    text-align: center;
+    text-shadow: 3px 1px #E6E6FA;
+    font-weight: bold;
+    margin: 25px;
+  }
 }
 
-.instruction { /*Style the instructions on the page*/
-  font-size: 18px;
-  color: #191919;
-  text-align: center;
-  text-shadow: 3px 1px #E6E6FA;
-  font-weight: bold;
-}
-
-.div1 button { /*Style button of the page*/
+button { /*Style button of the page*/
   background-color: #BC8F8F;
   border-color: white;
   color: white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 10px 15px;  
   border-radius: 5px;
   font-weight: bold;
+  display: block;
+  margin: 0 auto; /*center button using margin 0, auto since you can't use flex here*/
 }
 
 .pizza { /*Set background color for image and style as desired*/
   background-color: white; 
   border: hidden;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 1rem;
   color: #000000;
   display: none;
-  width: 542px;
-  text-align: center; 
+  width: 500px;
+  height: auto;
   padding: 5px 40px 20px;
+  text-align:center;
   position: relative; 
   top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
 
-.pizza h2 { /*Style the header of pizza*/
-  font-size: 35px;
-  color: #FF6347;
-  text-shadow: none;
-  text-align: center; 
-  font-weight: bold;
+  &__title { /*Style the header of pizza*/
+    font-size: 1.7rem;
+    margin: 10px 0px;
+    color: #FF6347;
+    text-shadow: none;
+    font-weight: bold;
+  }
+
+  &__image img {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+
+  &__text {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1rem;
+  }
 }
 
 .hamburger { /*Set background color for image, style and size of card*/
   background-color: #F0FFF0; 
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 1.0625rem;
   text-align: center; 
   color: #000000;
   display: none;
-  width: 530px;
-  height: 540px; 
+  width: 500px;
+  height: auto; 
   padding: 5px 40px 20px;
   position: relative; 
   top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
-
-.hamburger h2{ /*Style the header of hamburger*/
-  font-size: 35px;
-  color: #228B22;
-  text-shadow: none;
-  text-align: center; 
-  font-weight: bold;
+  
+  &__title { /*Style the header of hamburger*/
+      font-size: 1.7rem;
+      margin: 10px 0px;
+      color: #228B22;
+      text-shadow: none;
+      font-weight: bold;
+    }
+  
+    &__image img {
+      width: 50%;
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: contain;
+    }
+  
+    &__text {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 1rem;
+    }
 }
 
 .hot-dog { /*Set background color for image, style and size of card*/
@@ -98,31 +137,128 @@ body { /*Set background color and size*/
   border-radius: 10px;
   text-align: center; 
   display: none;
-  width: 530px;
+  width: 500px;
   padding: 5px 40px 20px;
   position: relative; 
   top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
 
-.hot-dog  h2{ /*Style the header of hot dog*/
-  font-size: 35px;
-  color: #FFFF00;
-  text-shadow: none;
-  text-align: center; 
-  font-weight: bold;
-}
+  &__title { /*Style the header of hot dog*/
+    font-size: 2.1875rem;
+    color: #FFFF00;
+    margin: 10px 0px;
+    text-shadow: none;
+    text-align: center; 
+    font-weight: bold;
+  } 
 
-p { /*Align and style paragraph font*/
-  text-align: justify;
+  &__image img {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+
+  &__text { /*Align and style paragraph font*/
+  text-align: center;
   padding-top: 10px;
-  font-size: 17px;
+  font-size: 1.0625rem;
+  }
 }
 
 .error { /*Align, style and color error message*/
-  font-size: 17px; 
+  font-size: 1.0625rem; 
   text-align: center;
   color: red; 
+}
+
+
+@media (max-width: $mobile){
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header__title {
+    font-family: 'Squada One', cursive; /*External font family*/
+    font-size: 3rem !important; //put important beside it to change the size of text
+    color: snow;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-shadow: 2px 4px #4B0082;
+  }
+
+  .header__instruction { /*Style the instructions on the page*/
+  font-size: 1rem;
+  color: #191919;
+  text-align: center;
+  text-shadow: 3px 1px #E6E6FA;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.pizza { /*Set background color for image and style as desired*/
+  width: 50%;
+
+  &__title { /*Style the header of pizza*/
+    font-size: 1.3rem;
+  }
+
+  &__image img {
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+  }
+}
+
+.hamburger { /*Set background color for image and style as desired*/
+  width: 50%;
+  background-color: #F0FFF0; 
+
+  &__title { /*Style the header of pizza*/
+    font-size: 1.5rem;
+  }
+
+  &__image img {
+    width: 100%;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 1.02rem;
+  }
+}
+
+.hot-dog { /*Set background color for image, style and size of card*/
+  width: 50%;
+
+    &__title { /*Style the header of hot dog*/
+      font-size: 1.4rem;
+  } 
+
+    &__image img {
+      width: 100%;
+  }
+
+    &__text { /*Align and style paragraph font*/
+      font-size: 1.05rem;
+  }
+}
+
+}
+
+@media (max-width: $tablet) {
+  .header__title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: $laptop) {
+  .header__title {
+    font-size: 4.5rem;
+  }
 }
