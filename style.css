@@ -186,10 +186,6 @@ button {
 }
 
 @media (max-width: 576px) {
-  .container {
-    width: 100%;
-    height: 100vh;
-  }
   .header__title {
     font-family: 'Squada One', cursive;
     /*External font family*/
@@ -210,48 +206,52 @@ button {
   }
   .pizza {
     /*Set background color for image and style as desired*/
-    width: 50%;
+    width: 300px;
   }
   .pizza__title {
     /*Style the header of pizza*/
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .pizza__image img {
-    width: 100%;
+    width: 80%;
   }
   .pizza__text {
-    font-size: 1.1rem;
+    font-size: .85rem;
+    padding-top: 10.5px;
+    line-height: 1.5;
   }
   .hamburger {
     /*Set background color for image and style as desired*/
-    width: 50%;
-    background-color: #F0FFF0;
+    width: 300px;
   }
   .hamburger__title {
     /*Style the header of pizza*/
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .hamburger__image img {
-    width: 100%;
+    width: 80%;
   }
   .hamburger__text {
-    text-align: center;
-    font-size: 1.02rem;
+    font-size: .85rem;
+    padding-top: 10.5px;
+    line-height: 1.5;
   }
   .hot-dog {
     /*Set background color for image, style and size of card*/
-    width: 50%;
+    width: 300px;
   }
   .hot-dog__title {
     /*Style the header of hot dog*/
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .hot-dog__image img {
-    width: 100%;
+    width: 80%;
   }
   .hot-dog__text {
     /*Align and style paragraph font*/
-    font-size: 1.05rem;
+    font-size: .85rem;
+    padding-top: 10.5px;
+    line-height: 1.5;
   }
 }
 
