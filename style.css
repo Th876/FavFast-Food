@@ -55,7 +55,7 @@ button {
   font-weight: bold;
   display: block;
   margin: 0 auto;
-  /*center button using margin 0, auto since you can't use flex here*/
+  /*center button*/
 }
 
 .pizza {
