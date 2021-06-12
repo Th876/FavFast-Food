@@ -176,7 +176,10 @@ button { /*Style button of the page*/
 
 
 @media (max-width: $mobile){
-
+   .container {
+    min-height: 800px;
+  }
+  
   .header__title {
     font-family: 'Squada One', cursive; /*External font family*/
     font-size: 3rem !important; //put important beside it to change the size of text
