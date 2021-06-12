@@ -52,7 +52,7 @@ button { /*Style button of the page*/
   border-radius: 5px;
   font-weight: bold;
   display: block;
-  margin: 0 auto; /*center button using margin 0, auto since you can't use flex here*/
+  margin: 0 auto; /*center button*/
 }
 
 .pizza { /*Set background color for image and style as desired*/
@@ -182,7 +182,7 @@ button { /*Style button of the page*/
   
   .header__title {
     font-family: 'Squada One', cursive; /*External font family*/
-    font-size: 3rem !important; //put important beside it to change the size of text
+    font-size: 3rem !important; //important to change the size of text
     color: snow;
     letter-spacing: 0.2rem;
     text-align: center;
