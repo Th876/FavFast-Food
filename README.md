@@ -4,7 +4,7 @@
 <h1>Favorite Fast-Food Informational Site</h1>
 
 <h2>Overview</h2>
-<p>This simple website was created to provide information about fast food items.</p> 
+<p>This website was created to provide information about fast food items.</p> 
 
 <h2>Live Link here:</h2> 
 <a href="https://th876.github.io/FavFast-Food/">Favorite Fast Food Informational Site</a>
